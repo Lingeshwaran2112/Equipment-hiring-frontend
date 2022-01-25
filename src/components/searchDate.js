@@ -69,7 +69,7 @@ function Dates(){
         <div className="datePicker1">
         <i className="fas fa-map-marker-alt locationIcon"></i>
           <select className="location">
-            <option>Dindigul</option>
+            <option>Ley</option>
           </select>
         </div>
         <div className="datePicker1">

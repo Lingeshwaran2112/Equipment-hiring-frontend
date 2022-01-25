@@ -2,7 +2,7 @@ import"../css/home.css"
 import React from"react";
 import NavBar from "./navbar";
 import { Appcontext } from "./context";
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"; 
 import LogIn from "./loginpage";
 // import Dates from "./searchDate";
 function Home(){
@@ -14,8 +14,9 @@ function Home(){
             <img className="wallpaper" src="./images/home1.jpg" alt="road"/>
             {/* <div className Name="hovers"></div> */}
             <div className="sloganDiv">
-                <p className="slg1">START YOUR ADVENTUROUS RIDE</p>
-                <p className="slg2">Explore The World With Our Bikes</p>
+                <p className="slg1">EXPLORE THE ADVENTUROUS LIFE</p>
+                <p className="slg2">***START YOUR DREAM WITH US***</p>
+                <p className="slg3">🙋🏻‍♂️ Welcome 🙋🏻‍♀️</p>
                 <Link to="/book"><button type="button" className ="btn btn-info bkBtn">BOOK RIDES</button>
                 </Link>
                 {/* <Dates/> */}
@@ -30,19 +31,19 @@ function Home(){
                 <div className ="col-lg-4 col-md-6 bootcol">
                     <div style={{textAlign:"center"}}>
                         <div  className="iconDivs"> 
-                        <i className ="fas fa-map-marker-alt fa-5x ic1" style={{color:"red"}}></i>
+                        <i className ="fas fa-briefcase-medical fa-5x ic1" style={{color:"#DC143C"}}></i>
                         </div>
                         <div>
-                            <h5 style={{marginTop:"20px" , marginBottom:"12px"}}>No Riding Limits</h5>
-                            <p className="service">Odometer Not Scare You Anymore.</p>
-                            <p className="service">No limits to Fly Our Bikes</p>
+                            <h5 style={{marginTop:"20px" , marginBottom:"12px"}}>Medical Emergency</h5>
+                            <p className="service">Free Safety Medicine.</p>
+                            <p className="service">Safety Kit Alloted The Vechile Driver</p>
                         </div>
                     </div>
                 </div>
                 <div className ="col-lg-4 col-md-6 bootcol">
                     <div style={{textAlign:"center"}}>
                         <div className ="iconDivs">
-                        <i className ="fas fa-hard-hat fa-5x" style={{color:"black"}}></i>
+                        <i className ="fab fa-angellist fa-5x" style={{color:"	#00BFFF"}}></i>
                         </div>
                         <div>
                             <h5 style={{marginTop:"20px" , marginBottom:"12px"}}>Freebies</h5>
@@ -54,7 +55,7 @@ function Home(){
                 <div className ="col-lg-4 col-md-6 bootcol">
                     <div style={{textAlign:"center"}}>
                         <div className ="iconDivs">
-                        <i className ="fas fa-shield-alt fa-5x" style={{color:"green"}}></i>
+                        <i className ="fas fa-shield-alt fa-5x" style={{color:"	#F08080"}}></i>
                         </div>
                         <div>
                             <h5 style={{marginTop:"20px" ,  marginBottom:"12px"}}>Payments Secure</h5>
@@ -63,22 +64,11 @@ function Home(){
                         </div>
                     </div>
                 </div>
-                <div className="col-lg-4 col-md-6 bootcol">
-                    <div style={{textAlign:"center"}}>
-                        <div className ="iconDivs">
-                        <i className ="fas fa-history fa-5x" style={{color:"deeppink"}}></i>
-                        </div>
-                        <div>
-                            <h5 style={{marginTop:"20px" ,  marginBottom:"12px"}}>No Bullshit</h5>
-                            <p className ="service">Any Time Available Our Service</p>
-                            <p className ="service">No Extra Charges are Charged</p>
-                        </div>
-                    </div>
-                </div>
+               
                 <div className ="col-lg-4 col-md-6 bootcol">
                     <div style={{textAlign:"center"}}>
                         <div className ="iconDivs">
-                            <i className ="fas fa-user-check fa-5x" style={{color:"blue"}}></i>
+                            <i className ="fas fa-user-check fa-5x" style={{color:"	#BDB76B"}}></i>
                         </div>
                         <div>
                             <h5 style={{marginTop:"20px" , marginBottom:"12px" }}>Verified Dealers</h5>
@@ -90,7 +80,19 @@ function Home(){
                 <div className ="col-lg-4 col-md-6 bootcol">
                     <div style={{textAlign:"center"}}>
                         <div className ="iconDivs">
-                        <i className ="fas fa-hand-holding-usd fa-5x" style={{color:"yellowgreen"}}></i>
+                        <i className ="fab fa-free-code-camp fa-5x" style={{color:"	#FFD700"}}></i>
+                        </div>
+                        <div>
+                            <h5 style={{marginTop:"20px" ,  marginBottom:"12px"}}>Free Camp Fire</h5>
+                            <p className ="service">Our Travelers To Provide Free Camping In Mountine</p>
+                            <p className ="service">50% Off In Night Dinner </p>
+                        </div>
+                    </div>
+                </div>
+                <div className ="col-lg-4 col-md-6 bootcol">
+                    <div style={{textAlign:"center"}}>
+                        <div className ="iconDivs">
+                        <i className ="fas fa-hand-holding-usd fa-5x" style={{color:""}}></i>
                         </div>
                         <div>
                             <h5 style={{marginTop:"20px" , marginBottom:"12px"}}>100% Moneyback</h5>
@@ -123,7 +125,7 @@ function Home(){
     I'd be happy to rent from them again and 
     I would recommend anybody who wants to rent a good bike "</p>
               <img src="./images/profile1.jpeg"  className="profile" alt=""/>
-              <p style={{marginBottom:"0px"}}>Mahesh Yadav</p>
+              <p style={{marginBottom:"0px"}}>Kowsik</p>
     </div>
     <div className="carousel-item slideShow">
      
@@ -133,7 +135,7 @@ function Home(){
     I'd be happy to rent from them again and 
     I would recommend anybody who wants to rent a good bike "</p>
               <img src="./images/profile2.jpg"  className="profile" alt=""/>
-              <p style={{marginBottom:"0px"}}>Priya Gupta</p>
+              <p style={{marginBottom:"0px"}}>Aniee</p>
 
 
     </div>
@@ -151,7 +153,7 @@ function Home(){
 
 {/* how it works */}
         <div className ="container-fluid" style={{textAlign:"center" , marginTop:"60px"}}>
-        <i className="fas fa-cogs fa-2x" style={{marginTop:"20px" , color:"rgb(104, 103, 103)"}}></i>
+        <i className="fas fa-cogs fa-2x" style={{marginTop:"20px" , color:")rgb(128,128,0)"}}></i>
          <div className="workDiv">
              <p className ="working" >HOW IT WORKS</p>
          </div>
@@ -190,7 +192,7 @@ function Home(){
 
 {/* contact us div */}
         <div className="heads2">
-        <i className="fas fa-headset fa-2x" style={{color:"yellowgreen"}}></i>
+        <i className="fas fa-headset fa-2x" style={{color:"	#00FF7F"}}></i>
             <p className="labels"> CONTACT US</p>
             <hr style={{marginBottom:"40px"}}/> 
         </div>
@@ -235,13 +237,13 @@ function Home(){
                 </div>
                
                 <p>
-                Dindigul is a wonderful city of roads, hills, and beautiful weather. Hill stations around the city make it more beautiful. 
+                Ley-Ladah is a wonderful city of roads, hills, and beautiful weather. Hill stations around the city make it more beautiful. 
                 It is difficult to touch each part of the city with public transport. Here, we are ..!!
                 </p>
                 <p>
-                We are dindigul's largest bike rental company. we provide all types of bikes for hourly renals, daily rentals. 
+                We are Ley-Ladah's largest bike rental company. we provide all types of bikes for hourly renals, daily rentals. 
                 We have famous pocket-friendly bike rental plans for the long term such as Weekly Bike Rentals and Monthly rentals.
-                We are available across the dindigul city.Transport should not ruin your plan to travel to a wonderful dindigul city.
+                We are available across the Ley-Ladah city.Transport should not ruin your plan to travel to a wonderful Ley-Ladah city.
                 you can book a hassle- free bike rental from our platforms such as Website, AndroidApp, and within just three clicks you are done..!! 
                 We are happy to serve our bike rental community, 
                 Travel communities.Any bulk demand of Bike Rental - We are there for you.call us on our number and we will book a bike for you.

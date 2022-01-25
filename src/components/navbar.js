@@ -25,13 +25,13 @@ const answer = JSON.parse(storeData)
     <span className="navbar-toggler-icon"><i className="fas fa-sliders-h tg"></i></span>
   </button>
   <img src="./images/wheel.png" style={{width:"40px" , height:"40px" , marginRight:"8px"}} alt="logos"/>
-  <a className="navbar-brand navitem appName" href="/">Rental<span className="sName">Bike</span></a>
+  <a className="navbar-brand navitem appName" href="/">Rental<span className="sName">Vehicle</span></a>
 
   <div className="collapse navbar-collapse end" id="navbarTogglerDemo03">
     <ul className="navbar-nav">
       <li><Link className="navLink" to="/">Home</Link></li>
-      <li><Link className="navLink" to="/">About us</Link></li>
-      <li><Link className="navLink" to="/book">Book-Bike</Link></li>
+      
+      <li><Link className="navLink" to="/book">Book-Vehicle</Link></li>
     </ul>
     <ul className="navbar-nav">
      

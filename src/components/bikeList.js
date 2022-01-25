@@ -115,14 +115,14 @@ console.log(sDate.toLocaleDateString().toString())
                  <p style={{ marginBottom : "4px"}}>{items.bikeName}</p>
               </div>
               <div className="bikeNum" style={(items.available - count)>0 ? {backgroundColor : "yellowgreen"}:{backgroundColor : "red"}}>
-                <div className="available"><p className="line1">Available Bikes</p></div>
+                <div className="available"><p className="line1">Available Vehicle</p></div>
                 <div className="availablenum"> <p className="line2">{(items.available - count)<0 ? 0 : (items.available - count) }</p></div>
               </div>
              
               <div className="sumInfo">
                  <p className="p1"><span className="span1">Engine Power : </span>{items.power} cc</p>
                  <hr/>
-                 <p className="p2"><span className="span2">Bike Mileage : </span>{items.mileg} per Litr.</p>
+                 <p className="p2"><span className="span2"> Mileage : </span>{items.mileg} per Litr.</p>
                  <hr/>
               </div>
               <div className="point">
@@ -130,11 +130,14 @@ console.log(sDate.toLocaleDateString().toString())
                
                 <select className="custom-select options" onChange={handleChange} name="city">
                   <option>Select PickUp Location</option>
-                  <option>Rmcolony</option>
-                  <option>Dindigul Busstand</option>
-                  <option>Railway Station</option>
-                  <option>Ulavar Sandhai</option>
-                  <option>Fish Market</option>
+                  <option>Pangong Lake</option>
+                  <option>Nubra valley</option>
+                  <option>Leh Palace</option>
+                  <option>Khardung La</option>
+                  <option>Hemis National Park</option>
+                  <option>Chadar Trek</option>
+                  <option>Likir Monastery</option>
+                  <option>Lamayuru</option>
                 </select>
               </div>
               <hr/>

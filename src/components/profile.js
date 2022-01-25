@@ -117,7 +117,7 @@ function Profile() {
               <table className="table tablecss">
                 <thead className="thead-dark">
                   <tr>
-                  <th>BIKE NAME</th>
+                  <th>Vehicle NAME</th>
                   <th>BOOK DETAILS</th>
                   </tr>
                 </thead>

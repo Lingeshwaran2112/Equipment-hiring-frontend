@@ -51,10 +51,10 @@ function condition(){
                         <div  className="allImageDiv">
                             <img  className="allImage" src={bikeInfo.url} alt=""/>
                             <div className="rentCard">
-                            <p style={{marginBottom : "0" , padding:"6px" , color:"white"}}>{bikeInfo.rent} Rs. / Day</p>
+                            <p style={{marginBottom : "0" , padding:"6px" , color:"white"}}>{bikeInfo.rent} ₹. / Day</p>
                             </div>
                             <div className="tag">
-                                <p className="tagInfo">BIKE SUMMARY</p>
+                                <p className="tagInfo">Vehicle SUMMARY</p>
                             </div>
                            
                         </div>
